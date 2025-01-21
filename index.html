@@ -1,0 +1,225 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mallam Sudharshan's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="menu-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#qualifications"><i class="fas fa-graduation-cap"></i> Qualifications</a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+                <li><a href="#projects"><i class="fas fa-folder"></i> Projects</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <style>
+        @keyframes slide-in {
+          0% {
+            transform: translateX(-100%);
+            opacity: 0;
+          }
+          100% {
+            transform: translateX(0);
+            opacity: 1;
+          }
+        }
+      
+        .text-content h1 {
+          font-size: 2.5rem; /* Adjust as per your preference */
+          margin: 0;
+          animation: slide-in 2s ease-out; /* Sliding animation for name */
+        }
+      
+        .text-content p {
+          font-size: 1.5rem; /* Adjust font size as needed */
+          margin-top: 10px;
+          animation: slide-in 2s ease-out;
+          animation-delay: 0.5s; /* Delays the animation to start after the name */
+          animation-fill-mode: both; /* Ensures the final state persists */
+        }
+      </style>
+      
+      <section id="hero">
+        <div class="hero-content">
+          <div class="text-content">
+            <h1><span>Hello It's Me</span></h1>
+            <h1><span>Mallam Sudharshan Reddy</span></h1>
+            <p><strong>And i'm a Data Analyst</strong></p>
+            <div class="social-icons">
+              <a href="mailto:sudharshanreddy249@gmail.com" target="_blank" style="text-decoration: none;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail Logo" style="width:30px; height:30px; vertical-align: middle;">
+              </a>
+              <a href="https://www.linkedin.com/in/mallam-sudharshan-7bb639241/" target="_blank" style="text-decoration: none;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn Logo" style="width:30px; height:30px; vertical-align: middle;">
+              </a>
+              <a href="https://github.com/MallamSudharshan" target="_blank" style="text-decoration: none;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Logo" style="width:30px; height:30px; vertical-align: middle;">
+              </a>
+            </div>
+            <a href="#contact" class="contact-button">Contact Me</a>
+          </div>
+          <div class="profile">
+            <a href="resume.pdf" target="_blank">
+              <img src="Profile.jpg" alt="MallamSudharshan">
+            </a>
+          </div>
+        </div>
+      </section>
+      
+    
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I am Mallam Sudharshan Reddy,I completed Bachelor of Technology at AITS-Kadapa. a Data Analytics Enthusiast skilled in Excel, SQL, Power BI, and data visualization.
+             I enjoy analyzing data to uncover insights and creating interactive dashboards that drive better decision making.
+             </p>
+        <p>My analytical journey includes working on diverse projects like IPL Data Analysis (2009–2022) and Hospitality Analytics, where I developed interactive dashboards and identified key metrics to drive meaningful improvements. I have also participated in industry-standard programs such as PwC’s Power BI Certification Program, which enhanced my ability to create dynamic visualizations and insightful reports.
+
+            In addition to technical skills, I bring strong problem-solving capabilities, a collaborative mindset, and a commitment to continuous learning. My goal is to help organizations leverage the power of data for strategic growth and success.
+            
+            When I’m not analyzing data, I enjoy exploring the latest trends in data science, learning new tools, and building projects that inspire innovation</p>
+        <a href="sudharshan_DataAnalyst_CV (1).pdf" class="download-button" download>Download CV</a>
+    </section>
+
+    <section id="qualifications">
+        <h2><i class="fas fa-graduation-cap"></i> Qualifications</h2>
+        <ul>
+            <li>Completed my 10th Standard from Zp High School, Eguvapalli with 8.2</li>
+            <li>Completed my Diploma from Amaravathi polytechnic collage, Rly Koduru with 79.6% </li>
+            <li>Bachelor of Mechanical engineering from Annamacharya Institiute Of Technology, Kadapa with 8.34 cgpa</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2><i class="fas fa-briefcase"></i> Experience</h2>
+        <ul>
+            <li>Internship as a Data Analyst at AI Variant – sep '24 to dec '24
+            </li>
+                  During my internship with AI Variant, I am working on hospitality analysis, focusing on analyzing data trends, customer behavior, and key metrics to optimize business performance. This experience is enhancing my skills in data analysis and visualization.
+            <li>Participated in multiple group projects, enhancing teamwork and collaboration skills.</li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2><i class="fas fa-certificate"></i> Certifications</h2>
+        <div class="certifications-grid">
+            <div class="certification-card">
+                <img src="Excelr jpg.jpg" alt="Data Analyst by Excelr">
+                <h3>Data Analyst by Excelr</h3>
+            </div>
+            <div class="certification-card">
+                <img src="pwc jpg.jpg" alt="Power Bi job simulation by Pwc and Forage">
+                <h3>Power Bi job simulation by Pwc and Forage</h3>
+            </div>
+            <div class="certification-card">
+                <img src="Edureka jpg.jpg" alt="Business Intelligence intership by Edureka">
+                <h3>Business Intelligence intership by Edureka</h3>
+            </div>
+            <div class="certification-card">
+                <img src="AMAZON WEB SERVICES INTERNSHIP CERTIFICATE jpg.jpg" alt=AWS Internship>
+                <h3>AWS Internship</h3>
+            </div>
+        </div>
+        
+    </section>
+        
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Hospitality Analysis</h3>
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7286339137379450880/" target="_blank">View On LinkedIn</a>
+                <p>The Hospitality Analysis Project focuses on analyzing metrics like checkouts, cancellations, and no-shows to optimize operational efficiency and improve guest experiences. Using SQL for data analysis and Power BI and Tableau for interactive dashboards, it uncovers trends and patterns to support decision-making. The project delivers actionable insights to minimize revenue loss and enhance resource planning.</p>
+                <img src="Excel.png" alt="Hospitality Analysis Dashboard" class="project-image">
+                <img src="Power BI.png" alt="Hospitality Analysis Dashboard" class="project-image">
+                <img src="Tableau.png" alt="Hospitality Analysis Dashboard" class="project-image">
+            </div>
+            <div class="project-card">
+                <h3>IPL Analysis (2009-2022)</h3>
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7260981496805548032/" target="_blank">View On LinkedIn</a>
+                <p>The IPL Analysis Project focuses on exploring IPL data from 2009 to 2022 using SQL and Power BI. It analyzes team performances, player statistics, and match outcomes to uncover winning patterns and key trends. The project delivers interactive dashboards that provide actionable insights for cricket enthusiasts and analysts.</p>
+                <img src="IPL 1.png" alt="IPL Analysis Dashboard" class="project-image">
+                <img src="IPL 2.png" alt="IPL Analysis Dashboard" class="project-image">
+               
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+            
+                <p>Excel</p>
+                <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill">
+                
+                <p>Power BI</p>
+                <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill">
+                
+                <p>SQL</p>
+                <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill">
+                
+                <p>Tableau</p>
+                <div class="skill-bar"><div class="skill-level" style="width: 65%;"></div></div>
+            </div>
+            <div class="skill">
+                
+                <p>Python</p>
+                <div class="skill-bar"><div class="skill-level" style="width: 60%;"></div></div>
+            </div>
+            <div class="skill">
+                
+                <p>Statistics</p>
+                <div class="skill-bar"><div class="skill-level" style="width: 55%;"></div></div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch, feel free to reach out via email:</p>
+        <p><a href="mailto:sudharshanreddy249@gmail.com">sudharshanreddy249@gmail.com</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy;  Sudharshan. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="mailto:sudharshanreddy249@gmail.com" target="_blank" style="text-decoration: none;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail Logo" style="width:30px; height:30px; vertical-align: middle;">
+              </a>
+            <a href="https://www.linkedin.com/in/mallam-sudharshan-7bb639241/" target="_blank" style="text-decoration: none;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn Logo" style="width:30px; height:30px; vertical-align: middle;">
+              </a>   
+            <a href="https://github.com/MallamSudharshan" target="_blank" style="text-decoration: none;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Logo" style="width:30px; height:30px; vertical-align: middle;">
+              </a>
+            
+            
+        </div>
+    </footer>
+</body>
+</html>
